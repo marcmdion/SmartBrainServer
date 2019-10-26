@@ -61,7 +61,7 @@ app.use(cors());
 
 app.get('/',(req,res)=> {
 	console.log('Welcome to root directory!!!')
-	res.send( database.users);
+	res.send('It is working!!!');
 })
 
 //old signin
