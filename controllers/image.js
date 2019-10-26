@@ -41,5 +41,6 @@ db('users')
 }
 
 module.exports = {
-	handleImage:handleImage
+	handleImage:handleImage,
+	handleApiCall:handleApiCall
 }
